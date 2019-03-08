@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_padding"
+        android:hint="@string/et_fecha"
+        android:inputType="date"
+        android:clickable="true"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_toggleButton"/>
+    <ToggleButton
+        android:id="@+id/toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Activo"
+        android:textOff="Desactivado"
+        android:onClick="onToggleButtonClick"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_switchView"/>
+    <Switch
+        android:id="@+id/switch_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="on"
+        android:textOff="off"
+        android:onClick="onSwitchClick"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_checkBox"
+        android:layout_marginTop="@dimen/activity_padding"/>
+
+    <CheckBox
+        android:id="@+id/check_box_leer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leer"
+        android:onClick="onCheckboxClick"/>
+
+    <CheckBox
+        android:id="@+id/check_box_videojuegos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/videojuegos"
+        android:onClick="onCheckboxClick"/>
+
+    <CheckBox
+        android:id="@+id/check_box_programar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/programar"
+        android:onClick="onCheckboxClick"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_radioButton"
+        android:layout_marginTop="@dimen/activity_padding"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radio_soltero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soltero"
+            android:onClick="onRadioButtonCheck"/>
+
+        <RadioButton
+            android:id="@+id/radio_casado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/casado"
+            android:onClick="onRadioButtonCheck"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_botonImagen"
+        android:layout_marginTop="@dimen/activity_padding"/>
+
+    <Button
+        android:id="@+id/boton_con_imagen"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft= "@drawable/ic_boton_imagen"
+        />
+
+
+
+</LinearLayout>

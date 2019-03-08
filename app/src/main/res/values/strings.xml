@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ManejoViews</string>
+    <string name="lbl_toggleButton">Toggle Button</string>
+    <string name="lbl_switchView">Switch</string>
+    <string name="lbl_checkBox">CheckBox - Pasatiempos</string>
+    <string name="leer">Leer</string>
+    <string name="videojuegos">Videojuegos</string>
+    <string name="programar">Programar</string>
+    <string name="lbl_radioButton">Radio Button</string>
+    <string name="soltero">Solterno</string>
+    <string name="casado">Casado</string>
+    <string name="lbl_botonImagen">Botón con Imagen</string>
+    <string name="botonImagen">Mi Botón</string>
+    <string name="et_fecha">05/02/2019</string>
+</resources>
